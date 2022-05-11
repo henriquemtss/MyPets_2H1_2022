@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPets">
         <activity
+            android:name=".CafeBalicoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,14 +24,10 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/temaSemBarra">
-
-        </activity>
+            android:theme="@style/temaSemBarra"></activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
