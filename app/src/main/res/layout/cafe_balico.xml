@@ -6,8 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".CafeBalicoActivity">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFABCafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+
+        />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/idCardView"
         android:layout_width="350dp"
         android:layout_height="500dp">
 
@@ -76,6 +86,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/idHum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -85,6 +96,7 @@
                     android:textSize="11sp" />
 
                 <Button
+                    android:id="@+id/idHdois"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -94,6 +106,7 @@
                     android:textSize="11sp" />
 
                 <Button
+                    android:id="@+id/idHtres"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -103,6 +116,7 @@
                     android:textSize="11sp" />
 
                 <Button
+                    android:id="@+id/idHquatro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -115,6 +129,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/idReserve"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,5 +139,7 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
