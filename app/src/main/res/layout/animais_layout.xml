@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CatActivity">
+    tools:context=".AnimaisActivity">
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/idBottomApp"
-        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:id="@+id/idBottomNav"
         app:menu="@menu/menu_bottom_bar"
-        app:navigationIcon="@drawable/ic_baseline_menu" />
-
+        android:layout_gravity="bottom"
+    />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

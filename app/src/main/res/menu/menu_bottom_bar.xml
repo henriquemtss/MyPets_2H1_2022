@@ -2,14 +2,32 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="Buscar"
-        android:icon="@drawable/ic_baseline_search"
+    <item
+        android:id="@+id/btBuscar"
         android:contentDescription="Buscar conteudo"
-        app:showAsAction="always"
-        />
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Buscar"
+        app:showAsAction="never" />
 
-    <item android:title="Email"
+    <item
+        android:id="@+id/btEmail"
         android:contentDescription="Email"
         android:icon="@drawable/ic_baseline_email"
+        android:title="Email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btFavorito"
+        android:contentDescription="Favorito"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorito"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btCompartilhar"
+        android:contentDescription="Share"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="Copartilhar"
+        app:showAsAction="never"
+
+
         />
 </menu>
