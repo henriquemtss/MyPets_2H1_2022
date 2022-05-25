@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/BttNavFavorite"
+        android:contentDescription="Favorite"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/BttNavMusic"
+        android:contentDescription="Music"
+        android:icon="@drawable/ic_baseline_music_note"
+        android:title="Music" />
+    <item
+        android:id="@+id/BttNavPlace"
+        android:contentDescription="Place"
+        android:icon="@drawable/ic_baseline_place"
+        android:title="Place" />
+    <item
+        android:id="@+id/BttNavNews"
+        android:contentDescription="News"
+        android:icon="@drawable/ic_baseline_event_note"
+        android:title="News" />
+
+
+</menu>
