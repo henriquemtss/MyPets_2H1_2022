@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPets">
         <activity
+            android:name=".ListaCachorroActivity"
+            android:exported="false" />
+        <activity
             android:name=".GaleriaActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,15 +23,13 @@
         </activity>
         <activity
             android:name=".AnimaisActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".CatActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".CafeBalicoActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MenuActivity"
             android:exported="true" />

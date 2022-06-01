@@ -32,10 +32,5 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <include layout="@layout/modelo_animais_cachorro"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
